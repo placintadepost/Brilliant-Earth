@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "removeComments": false,
+    "outDir": "JSFiles",
+    "types": [
+      "jasmine"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false ,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
