@@ -204,13 +204,14 @@ var homePage = /** @class */ (function (_super) {
                         return [4 /*yield*/, this.footerNewsletter.sendKeys(tempEmail)];
                     case 9:
                         _a.sent();
-                        //await this.newsletterCheckbox.click();
-                        return [4 /*yield*/, this.newsletterBtn.click()];
+                        return [4 /*yield*/, this.newsletterCheckbox.click()];
                     case 10:
-                        //await this.newsletterCheckbox.click();
+                        _a.sent();
+                        return [4 /*yield*/, this.newsletterBtn.click()];
+                    case 11:
                         _a.sent();
                         return [4 /*yield*/, this.justWaitForDisplay(this.thankYouForSubs)];
-                    case 11:
+                    case 12:
                         _a.sent();
                         expect((this.thankYouForSubs).getText()).toContain("Thank you for subscribing to the Brilliant Earth newsletter");
                         return [2 /*return*/];

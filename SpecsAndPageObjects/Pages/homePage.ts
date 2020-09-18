@@ -100,7 +100,7 @@ export class homePage extends Base {
         await browser.executeScript('arguments[0].scrollIntoViewIfNeeded(true);', this.footerNewsletter.getWebElement());
 
         await this.footerNewsletter.sendKeys(tempEmail);
-        //await this.newsletterCheckbox.click();
+        await this.newsletterCheckbox.click();
 
         await this.newsletterBtn.click();
 

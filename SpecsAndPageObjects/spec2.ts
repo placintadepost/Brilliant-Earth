@@ -26,8 +26,8 @@ describe('ProtractorDemo - TC000: Access homepage', async()=> {
 
     it('Confirm expected newsletter popup message and close', async()=> {
 
-        await home.closeNewsletter();
-        //await home.closePopup();
+        //await home.closeNewsletter();
+        await home.closePopup();
 
     });
 

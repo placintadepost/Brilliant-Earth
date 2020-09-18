@@ -65,8 +65,11 @@ describe('ProtractorDemo - TC000: Access homepage', function () { return __await
         it('Confirm expected newsletter popup message and close', function () { return __awaiter(void 0, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, home.closeNewsletter()];
+                    case 0: 
+                    //await home.closeNewsletter();
+                    return [4 /*yield*/, home.closePopup()];
                     case 1:
+                        //await home.closeNewsletter();
                         _a.sent();
                         return [2 /*return*/];
                 }
